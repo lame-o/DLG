@@ -1,69 +1,43 @@
-# Welcome to your Lovable project
+# DLG Law Group Website
 
-## Project info
+Hey there! 👋 This is the codebase for a modern, sleek website I'm building for a trademark attorney group. The site aims to provide a professional and user-friendly experience for clients seeking trademark legal services.
 
-**URL**: https://lovable.dev/projects/423ebd8a-d1e3-4e62-b988-9bd75319136a
+## Tech Stack 🛠️
 
-## How can I edit this code?
+This project is built with some pretty cool modern tech:
 
-There are several ways of editing your application.
+- **[Vite](https://vitejs.dev/)** - Lightning fast build tool and dev server
+- **[React](https://react.dev/)** - UI framework for building interactive interfaces
+- **[TypeScript](https://www.typescriptlang.org/)** - Adding type safety to our JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid styling
+- **[shadcn/ui](https://ui.shadcn.com/)** - Beautiful, accessible component library
 
-**Use Lovable**
+## Getting Started 🚀
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/423ebd8a-d1e3-4e62-b988-9bd75319136a) and start prompting.
+1. Clone the repository
+```bash
+git clone https://github.com/lame-o/DLG.git
+cd DLG
+```
 
-Changes made via Lovable will be committed automatically to this repo.
+2. Install dependencies
+```bash
+npm install
+```
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Features ✨
 
-**Use GitHub Codespaces**
+- Modern, responsive design
+- Fast page loads with Vite
+- Type-safe development with TypeScript
+- Beautiful UI components from shadcn/ui
+- Tailwind CSS for custom styling
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/423ebd8a-d1e3-4e62-b988-9bd75319136a) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Feel free to reach out if you have any questions or suggestions!
