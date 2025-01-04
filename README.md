@@ -11,6 +11,7 @@ This project is built with some pretty cool modern tech:
 - **[TypeScript](https://www.typescriptlang.org/)** - Adding type safety to our JavaScript
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid styling
 - **[shadcn/ui](https://ui.shadcn.com/)** - Beautiful, accessible component library
+- **[Framer Motion](https://www.framer.com/motion/)** - Powerful library for animations and gestures
 
 ## Getting Started 🚀
 
@@ -39,5 +40,6 @@ The site will be available at `http://localhost:8080`
 - Type-safe development with TypeScript
 - Beautiful UI components from shadcn/ui
 - Tailwind CSS for custom styling
+- Smooth animations with Framer Motion
 
 Feel free to reach out if you have any questions or suggestions!
