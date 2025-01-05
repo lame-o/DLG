@@ -59,7 +59,7 @@ const Index = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-2xl font-semibold text-center text-gray-600 mb-12">
-            TRUSTED BY LEADING TEAMS
+            TRUSTED BY LEADING BRANDS
           </h2>
           <div className="relative overflow-hidden">
             <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
