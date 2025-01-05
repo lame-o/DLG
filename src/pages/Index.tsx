@@ -61,90 +61,154 @@ const Index = () => {
           <h2 className="text-2xl font-semibold text-center text-gray-600 mb-12">
             TRUSTED BY LEADING TEAMS
           </h2>
-          <Marquee className="py-4" pauseOnHover>
-            <div className="flex items-center gap-16 px-4">
-              <img 
-                src="https://cdn.magicui.design/companies/Amazon.svg" 
-                alt="Amazon" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-              <img 
-                src="https://cdn.magicui.design/companies/Netflix.svg" 
-                alt="Netflix" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-              <img 
-                src="https://cdn.magicui.design/companies/Youtube.svg" 
-                alt="YouTube" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-              <img 
-                src="https://cdn.magicui.design/companies/Instagram.svg" 
-                alt="Instagram" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-              <img 
-                src="https://cdn.magicui.design/companies/Uber.svg" 
-                alt="Uber" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-              <img 
-                src="https://cdn.magicui.design/companies/Spotify.svg" 
-                alt="Spotify" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-              <img 
-                src="https://cdn.magicui.design/companies/Google.svg" 
-                alt="Google" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-              <img 
-                src="https://cdn.magicui.design/companies/Microsoft.svg" 
-                alt="Microsoft" 
-                loading="lazy"
-                width="112"
-                height="40"
-                decoding="async"
-                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
-                style={{ color: 'transparent' }}
-              />
-            </div>
-          </Marquee>
+          <div className="relative overflow-hidden">
+            <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
+            <div className="absolute inset-y-0 right-0 w-48 bg-gradient-to-l from-gray-50 to-transparent z-10"></div>
+            <Marquee className="py-8" speed={20}>
+              <div className="flex items-center gap-8 px-6">
+                <img 
+                  src="https://cdn.magicui.design/companies/Netflix.svg" 
+                  alt="Netflix" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Instagram.svg" 
+                  alt="Instagram" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Uber.svg" 
+                  alt="Uber" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Spotify.svg" 
+                  alt="Spotify" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Google.svg" 
+                  alt="Google" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Microsoft.svg" 
+                  alt="Microsoft" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Amazon.svg" 
+                  alt="Amazon" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Netflix.svg" 
+                  alt="Netflix" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Instagram.svg" 
+                  alt="Instagram" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Uber.svg" 
+                  alt="Uber" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Spotify.svg" 
+                  alt="Spotify" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Google.svg" 
+                  alt="Google" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Microsoft.svg" 
+                  alt="Microsoft" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
+                  src="https://cdn.magicui.design/companies/Amazon.svg" 
+                  alt="Amazon" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+              </div>
+            </Marquee>
+          </div>
         </div>
       </section>
 
