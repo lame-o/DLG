@@ -26,19 +26,19 @@ const Navbar = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className={`text-white hover:text-law-gold transition-colors ${isActive('/') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
+            <Link to="/" className={`text-white font-bold hover:text-law-gold transition-colors ${isActive('/') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               Home
             </Link>
-            <Link to="/about" className={`text-white hover:text-law-gold transition-colors ${isActive('/about') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
+            <Link to="/about" className={`text-white font-bold hover:text-law-gold transition-colors ${isActive('/about') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               About DLG
             </Link>
-            <Link to="/services" className={`text-white hover:text-law-gold transition-colors ${isActive('/services') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
+            <Link to="/services" className={`text-white font-bold hover:text-law-gold transition-colors ${isActive('/services') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               DLG Services
             </Link>
-            <Link to="/publications" className={`text-white hover:text-law-gold transition-colors ${isActive('/publications') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
+            <Link to="/publications" className={`text-white font-bold hover:text-law-gold transition-colors ${isActive('/publications') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               DLG Publications
             </Link>
-            <Link to="/contact" className={`text-white hover:text-law-gold transition-colors ${isActive('/contact') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
+            <Link to="/contact" className={`text-white font-bold hover:text-law-gold transition-colors ${isActive('/contact') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               Contact Us
             </Link>
           </div>

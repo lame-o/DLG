@@ -31,6 +31,24 @@ const Index = () => {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-4xl mx-auto space-y-6 text-gray-700 leading-relaxed">
+          <p>
+            Dwight Law Group was founded in 2002 and is an intellectual property law firm focused on trademark and copyright prosecution, maintenance and enforcement, unfair competition, infringement, trade secrets, and related litigation. We represent clients throughout the world in intellectual property law. Our clients include companies at various stages of growth from individuals and start-ups to large multimillion-dollar companies.
+          </p>
+          <p>
+            The firm's practice includes client consultation, trademark and copyright clearance, preparation and procurement of trademarks, copyright applications, appeals, licensing, domain disputes, oppositions and cancellations and intellectual property and related business litigation. We also counsel clients on how to properly protect and police intellectual property rights, trade secret rights, avoiding infringement liability, and how to manage an intellectual property portfolio.
+          </p>
+          <p>
+            What distinguishes us most from other law firms is our expertise in intellectual property law, superior customer service, results, and competitive rates. Our founder, Amanda Dwight, is the co-author of two widely used text books in the field of trademark law. These texts are used by trademark practitioners throughout the U.S. and the world.
+          </p>
+          <p>
+            At Dwight Law Group, we believe it is an honor to speak on behalf of our clients. This is why building long-term relationships based on mutual trust and respect is our top priority. We are committed to providing superior, personalized legal services, efficiently and cost-effectively. For more information on how we can protect your most valuable assets, contact Dwight Law Group for a complimentary initial consultation at <a href="tel:949-515-0003" className="text-law-primary font-bold hover:text-law-secondary transition-colors">949-515-0003</a> or <a href="mailto:adwight@dwightlawgroup.com" className="text-law-primary font-bold hover:text-law-secondary transition-colors">adwight@dwightlawgroup.com</a>.
+          </p>
+        </div>
+      </section>
+
       {/* Practice Areas */}
       <section id="practice-areas" className="py-20 px-4 bg-law-gray">
         <div className="max-w-7xl mx-auto">
@@ -218,53 +236,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 bg-law-gray">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-law-primary mb-12">Contact Us</h2>
-          <div className="max-w-xl mx-auto bg-white rounded-lg shadow-md p-8">
-            <form className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-law-primary focus:border-law-primary"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-law-primary focus:border-law-primary"
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-law-primary focus:border-law-primary"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full px-6 py-3 bg-law-primary text-white rounded-md hover:bg-law-secondary transition-colors"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-law-primary text-white py-12 px-4">
         <div className="max-w-7xl mx-auto">
@@ -290,7 +261,10 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-            <p className="text-gray-300"> 2024 Dwight Law Group. All rights reserved.</p>
+            <p className="text-xs text-gray-400 mb-4 max-w-3xl mx-auto">
+              Disclaimer: the information contained in this website was prepared by Dwight Law Group and is for general informational purposes only. The material contained in this website may or may not reflect the most current legal developments and nothing in this website should be considered legal advice. No lawyer-client relationship is created as a result of transmission of the information on this website.
+            </p>
+            <p className="text-gray-300">&copy; {new Date().getFullYear()} Dwight Law Group. All rights reserved.</p>
           </div>
         </div>
       </footer>
