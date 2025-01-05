@@ -4,21 +4,21 @@ import Marquee from 'react-fast-marquee';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="bg-law-primary">
       <Navbar />
       
       {/* Hero Section */}
-      <section id="home" className="pt-24 pb-16 px-4 bg-gradient-to-br from-law-primary to-law-secondary">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-12">
+      <section id="home" className="pt-20 bg-gradient-to-br from-law-primary to-law-secondary">
+        <div className="w-full max-w-4xl mx-auto text-center py-12">
+          <div className="mb-8">
             <img 
               src="/dlg_logo.gif"
               alt="DLG Logo"
-              className="h-24 w-auto mx-auto fade-in"
+              className="h-20 w-auto mx-auto fade-in"
             />
           </div>
           <blockquote className="fade-in">
-            <p className="text-2xl md:text-3xl text-white font-light leading-relaxed mb-6">
+            <p className="text-2xl md:text-3xl text-white font-light leading-relaxed mb-4">
               "What a rare privilege it is to be authorized to speak for someone else."
             </p>
             <footer className="text-white/80">
