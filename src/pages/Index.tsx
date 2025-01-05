@@ -1,14 +1,11 @@
 import { Scale, Briefcase, FileCheck } from 'lucide-react';
-import Navbar from '@/components/Navbar';
 import Marquee from 'react-fast-marquee';
 
 const Index = () => {
   return (
-    <div className="bg-law-primary">
-      <Navbar />
-      
+    <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section id="home" className="pt-20 bg-gradient-to-br from-law-primary to-law-secondary">
+      <section id="home" className="bg-gradient-to-br from-law-primary to-law-secondary">
         <div className="w-full max-w-4xl mx-auto text-center py-12">
           <div className="mb-8">
             <img 
