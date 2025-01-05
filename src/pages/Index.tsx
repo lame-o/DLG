@@ -1,5 +1,6 @@
 import { Scale, Briefcase, FileCheck } from 'lucide-react';
 import Navbar from '@/components/Navbar';
+import Marquee from 'react-fast-marquee';
 
 const Index = () => {
   return (
@@ -54,49 +55,96 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-20 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-law-primary mb-6">
-                Experienced Trademark Attorneys
-              </h2>
-              <p className="text-gray-600 mb-6">
-                With over 25 years of experience, Dwight Law Group has been at the forefront of trademark law, helping businesses protect their intellectual property rights.
-              </p>
-              <p className="text-gray-600 mb-6">
-                Our team of dedicated attorneys combines deep legal knowledge with a practical business approach to deliver results-oriented solutions for our clients.
-              </p>
-              <a 
-                href="#contact"
-                className="inline-block px-6 py-3 bg-law-primary text-white rounded-md hover:bg-law-secondary transition-colors"
-              >
-                Learn More About Us
-              </a>
+      {/* Trusted By Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-2xl font-semibold text-center text-gray-600 mb-12">
+            TRUSTED BY LEADING TEAMS
+          </h2>
+          <Marquee className="py-4" pauseOnHover>
+            <div className="flex items-center gap-16 px-4">
+              <img 
+                src="https://cdn.magicui.design/companies/Amazon.svg" 
+                alt="Amazon" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
+              <img 
+                src="https://cdn.magicui.design/companies/Netflix.svg" 
+                alt="Netflix" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
+              <img 
+                src="https://cdn.magicui.design/companies/Youtube.svg" 
+                alt="YouTube" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
+              <img 
+                src="https://cdn.magicui.design/companies/Instagram.svg" 
+                alt="Instagram" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
+              <img 
+                src="https://cdn.magicui.design/companies/Uber.svg" 
+                alt="Uber" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
+              <img 
+                src="https://cdn.magicui.design/companies/Spotify.svg" 
+                alt="Spotify" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
+              <img 
+                src="https://cdn.magicui.design/companies/Google.svg" 
+                alt="Google" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
+              <img 
+                src="https://cdn.magicui.design/companies/Microsoft.svg" 
+                alt="Microsoft" 
+                loading="lazy"
+                width="112"
+                height="40"
+                decoding="async"
+                className="h-10 w-28 dark:brightness-0 dark:invert grayscale opacity-30 hover:opacity-100 transition-opacity"
+                style={{ color: 'transparent' }}
+              />
             </div>
-            <div className="bg-law-gray p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-law-primary mb-6">Why Choose Us</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="text-law-gold mr-2">✓</span>
-                  <span>25+ Years of Specialized Experience</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-law-gold mr-2">✓</span>
-                  <span>Personalized Service for Every Client</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-law-gold mr-2">✓</span>
-                  <span>Proven Track Record of Success</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-law-gold mr-2">✓</span>
-                  <span>Competitive, Transparent Pricing</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+          </Marquee>
         </div>
       </section>
 
@@ -172,7 +220,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-            <p className="text-gray-300">© 2024 Dwight Law Group. All rights reserved.</p>
+            <p className="text-gray-300"> 2024 Dwight Law Group. All rights reserved.</p>
           </div>
         </div>
       </footer>
