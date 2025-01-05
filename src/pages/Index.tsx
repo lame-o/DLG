@@ -8,20 +8,26 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section id="home" className="pt-32 pb-20 px-4 bg-gradient-to-br from-law-primary to-law-secondary">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 fade-in">
-            Protecting Your Intellectual Property Rights
-          </h1>
-          <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto fade-in">
-            Expert trademark attorneys helping businesses secure and defend their brands since 1995
-          </p>
-          <a 
-            href="#contact"
-            className="inline-block px-8 py-3 bg-law-gold text-law-primary font-semibold rounded-md hover:bg-law-lightGold transition-colors fade-in"
-          >
-            Schedule a Consultation
-          </a>
+      <section id="home" className="pt-24 pb-16 px-4 bg-gradient-to-br from-law-primary to-law-secondary">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-12">
+            <img 
+              src="/dlg_logo.gif"
+              alt="DLG Logo"
+              className="h-24 w-auto mx-auto fade-in"
+            />
+          </div>
+          <blockquote className="fade-in">
+            <p className="text-2xl md:text-3xl text-white font-light leading-relaxed mb-6">
+              "What a rare privilege it is to be authorized to speak for someone else."
+            </p>
+            <footer className="text-white/80">
+              <cite>
+                <div className="font-medium text-lg">Warren Christopher</div>
+                <div className="text-sm mt-1">Former Secretary of State</div>
+              </cite>
+            </footer>
+          </blockquote>
         </div>
       </section>
 

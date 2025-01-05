@@ -11,28 +11,34 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
+    <nav className="fixed w-full bg-law-primary backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-2xl font-bold text-law-primary">Dwight Law Group</Link>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/dlg_logo.gif"
+                alt="Dwight Law Group"
+                className="h-12 w-auto"
+              />
+            </Link>
           </div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className={`hover:text-law-primary transition-colors ${isActive('/')}`}>
+            <Link to="/" className={`text-white hover:text-law-gold transition-colors ${isActive('/') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               Home
             </Link>
-            <Link to="/about" className={`hover:text-law-primary transition-colors ${isActive('/about')}`}>
+            <Link to="/about" className={`text-white hover:text-law-gold transition-colors ${isActive('/about') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               About DLG
             </Link>
-            <Link to="/services" className={`hover:text-law-primary transition-colors ${isActive('/services')}`}>
+            <Link to="/services" className={`text-white hover:text-law-gold transition-colors ${isActive('/services') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               DLG Services
             </Link>
-            <Link to="/publications" className={`hover:text-law-primary transition-colors ${isActive('/publications')}`}>
+            <Link to="/publications" className={`text-white hover:text-law-gold transition-colors ${isActive('/publications') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               DLG Publications
             </Link>
-            <Link to="/contact" className="px-4 py-2 rounded bg-law-primary text-white hover:bg-law-secondary transition-colors">
+            <Link to="/contact" className={`text-white hover:text-law-gold transition-colors ${isActive('/contact') === 'text-law-gold' ? 'text-law-gold' : ''}`}>
               Contact Us
             </Link>
           </div>
@@ -41,7 +47,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-600 hover:text-gray-900 focus:outline-none"
+              className="text-white hover:text-law-gold transition-colors"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -54,35 +60,35 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link 
                 to="/" 
-                className={`block px-3 py-2 hover:text-law-primary ${isActive('/')}`}
+                className={`block px-3 py-2 hover:text-law-gold ${isActive('/')}`}
                 onClick={() => setIsOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className={`block px-3 py-2 hover:text-law-primary ${isActive('/about')}`}
+                className={`block px-3 py-2 hover:text-law-gold ${isActive('/about')}`}
                 onClick={() => setIsOpen(false)}
               >
                 About DLG
               </Link>
               <Link 
                 to="/services" 
-                className={`block px-3 py-2 hover:text-law-primary ${isActive('/services')}`}
+                className={`block px-3 py-2 hover:text-law-gold ${isActive('/services')}`}
                 onClick={() => setIsOpen(false)}
               >
                 DLG Services
               </Link>
               <Link 
                 to="/publications" 
-                className={`block px-3 py-2 hover:text-law-primary ${isActive('/publications')}`}
+                className={`block px-3 py-2 hover:text-law-gold ${isActive('/publications')}`}
                 onClick={() => setIsOpen(false)}
               >
                 DLG Publications
               </Link>
               <Link 
                 to="/contact" 
-                className={`block px-3 py-2 hover:text-law-primary ${isActive('/contact')}`}
+                className={`block px-3 py-2 hover:text-law-gold ${isActive('/contact')}`}
                 onClick={() => setIsOpen(false)}
               >
                 Contact
