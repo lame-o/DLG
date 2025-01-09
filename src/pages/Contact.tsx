@@ -2,9 +2,48 @@ const Contact = () => {
   return (
     <div className="min-h-screen pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-4xl font-bold text-law-primary mb-12">Contact Us</h1>
         <div className="grid md:grid-cols-2 gap-12">
           <div>
+            <div className="bg-law-gray p-8 rounded-lg">
+              <h2 className="text-2xl font-bold text-law-primary mb-6">Contact Information</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <p className="text-gray-700">2603 Main Street, Suite 200</p>
+                  <p className="text-gray-700">Irvine, CA 92614-4246</p>
+                </div>
+                <div className="space-y-2">
+                  <p className="text-gray-700">
+                    <span className="font-semibold">Phone:</span> (949) 515-0003
+                  </p>
+                  <p className="text-gray-700">
+                    <span className="font-semibold">Direct:</span> (949) 379-6647
+                  </p>
+                  <p className="text-gray-700">
+                    <span className="font-semibold">Fax:</span> (949) 266-8680
+                  </p>
+                  <p className="text-gray-700">
+                    <span className="font-semibold">Email:</span>{" "}
+                    <a href="mailto:adwight@dwightlawgroup.com" className="text-law-secondary hover:text-law-primary underline">
+                      adwight@dwightlawgroup.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 h-[400px] rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.9461338721454!2d-117.86183372424644!3d33.6858844732499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdec3b1fb9899%3A0x2f2c0066f64a81c!2s2603%20Main%20St%20%23200%2C%20Irvine%2C%20CA%2092614!5e0!3m2!1sen!2sus!4v1704790800000!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div>
+            <h2 className="text-4xl font-bold text-law-primary mb-8">Contact Us</h2>
             <form className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
@@ -43,32 +82,6 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
-          </div>
-          <div>
-            <div className="bg-law-gray p-8 rounded-lg">
-              <h2 className="text-2xl font-bold text-law-primary mb-6">Contact Information</h2>
-              <div className="space-y-4">
-                <p>
-                  <strong>Address:</strong><br />
-                  123 Legal Street<br />
-                  Suite 100<br />
-                  Los Angeles, CA 90001
-                </p>
-                <p>
-                  <strong>Email:</strong><br />
-                  info@dwightlawgroup.com
-                </p>
-                <p>
-                  <strong>Phone:</strong><br />
-                  (555) 123-4567
-                </p>
-                <p>
-                  <strong>Office Hours:</strong><br />
-                  Monday - Friday: 9:00 AM - 6:00 PM<br />
-                  Saturday - Sunday: Closed
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
