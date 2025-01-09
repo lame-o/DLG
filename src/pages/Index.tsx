@@ -29,7 +29,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-gray-200">
         <div className="max-w-4xl mx-auto space-y-6 text-gray-700 leading-relaxed">
           <p>
             Dwight Law Group was founded in 2002 and is an intellectual property law firm focused on trademark and copyright prosecution, maintenance and enforcement, unfair competition, infringement, trade secrets, and related litigation. We represent clients throughout the world in intellectual property law. Our clients include companies at various stages of growth from individuals and start-ups to large multimillion-dollar companies.
@@ -46,45 +46,15 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Practice Areas */}
-      <section id="practice-areas" className="py-20 px-4 bg-law-gray">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-law-primary mb-12">Our Practice Areas</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <Scale className="w-12 h-12 text-law-gold mb-4" />
-              <h3 className="text-xl font-bold mb-4">Trademark Registration</h3>
-              <p className="text-gray-600">
-                Comprehensive trademark search and registration services to protect your brand identity
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <Briefcase className="w-12 h-12 text-law-gold mb-4" />
-              <h3 className="text-xl font-bold mb-4">Trademark Litigation</h3>
-              <p className="text-gray-600">
-                Aggressive representation in trademark disputes and infringement cases
-              </p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <FileCheck className="w-12 h-12 text-law-gold mb-4" />
-              <h3 className="text-xl font-bold mb-4">IP Portfolio Management</h3>
-              <p className="text-gray-600">
-                Strategic management and maintenance of your intellectual property assets
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Trusted By Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-200">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-2xl font-semibold text-center text-gray-600 mb-12">
             TRUSTED BY LEADING BRANDS
           </h2>
           <div className="relative overflow-hidden">
-            <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
-            <div className="absolute inset-y-0 right-0 w-48 bg-gradient-to-l from-gray-50 to-transparent z-10"></div>
+            <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-gray-200 to-transparent z-10"></div>
+            <div className="absolute inset-y-0 right-0 w-48 bg-gradient-to-l from-gray-200 to-transparent z-10"></div>
             <Marquee className="py-8" speed={20}>
               <div className="flex items-center gap-8 px-6">
                 <img 
