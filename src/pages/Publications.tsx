@@ -5,25 +5,33 @@ const Publications = () => {
         <h1 className="text-4xl font-bold text-law-primary mb-12">DLG Publications</h1>
         <div className="space-y-8">
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold text-law-primary mb-2">Latest Insights in Trademark Law</h3>
+            <a href="https://store.legal.thomsonreuters.com/law-products/Treatises/Copyright-Registration-Practice-2d-2024-2-ed/p/107065859" className="block">
+              <h3 className="text-xl font-bold text-law-primary mb-2 underline hover:text-law-secondary transition-colors">Copyright Registration Practice, 2d</h3>
+            </a>
+            <p className="text-gray-700 mb-2">Amanda V. Dwight and James E. Hawes (Thomson West)</p>
             <p className="text-gray-600 mb-4">
-              A comprehensive analysis of recent developments in trademark law and their implications for businesses.
+              A comprehensive guide covering every aspect of the copyright registration process, from determining copyrightable material to completing application forms and handling registration issues. The book provides detailed coverage of each application form section and type.
             </p>
-            <a href="#" className="text-law-secondary hover:text-law-primary transition-colors">Read More →</a>
           </div>
+
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold text-law-primary mb-2">International IP Protection Strategies</h3>
+            <a href="https://store.legal.thomsonreuters.com/law-products/Treatises/Trademark-Registration-Practice-2d-2024-2-ed/p/107058728" className="block">
+              <h3 className="text-xl font-bold text-law-primary mb-2 underline hover:text-law-secondary transition-colors">Trademark Registration Practice, 2d</h3>
+            </a>
+            <p className="text-gray-700 mb-2">Amanda V. Dwight and James E. Hawes (Thomson West)</p>
             <p className="text-gray-600 mb-4">
-              Expert guidance on protecting intellectual property rights across international markets.
+              A detailed guide through federal and state trademark registration processes. This resource assists attorneys in trademark selection, application preparation, prosecution, response to rejections, rights maintenance, and USPTO communications. It includes comprehensive coverage of federal court decisions, the Lanham Act, and TTAB decisions.
             </p>
-            <a href="#" className="text-law-secondary hover:text-law-primary transition-colors">Read More →</a>
           </div>
+
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold text-law-primary mb-2">Digital Brand Protection</h3>
+            <a href="https://store.legal.thomsonreuters.com/law-products/Treatises/Practitioners-Trademark-Manual-of-Examining-Procedure-2017-1-ed/p/104417539" className="block">
+              <h3 className="text-xl font-bold text-law-primary mb-2 underline hover:text-law-secondary transition-colors">Practitioner's Trademark Manual of Examining Procedure, 2017-1 ed.</h3>
+            </a>
+            <p className="text-gray-700 mb-2">Amanda V. Dwight and James E. Hawes (Thomson West)</p>
             <p className="text-gray-600 mb-4">
-              Strategies for protecting your brand in the digital age and across social media platforms.
+              An interpretative guide to the USPTO manual on examining procedure from a practitioner's perspective. It provides thorough explanations of trademark registration processes and procedures, incorporating recent cases, statutory changes, and rule updates since the manual's latest revision.
             </p>
-            <a href="#" className="text-law-secondary hover:text-law-primary transition-colors">Read More →</a>
           </div>
         </div>
       </div>
