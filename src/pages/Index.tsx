@@ -56,59 +56,59 @@ const Index = () => {
             <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-gray-200 to-transparent z-10"></div>
             <div className="absolute inset-y-0 right-0 w-48 bg-gradient-to-l from-gray-200 to-transparent z-10"></div>
             <Marquee className="py-8" speed={0} pauseOnHover={true}>
-              <div className="flex items-center gap-8 px-6">
+              <div className="flex items-center gap-24 px-10">
                 <img 
-                  src="/public/marqueelogos/DLG-client-Pelaton.svg" 
+                  src="/marqueelogos/DLG-client-TPLINK.png" 
                   alt="DLG Client 1 - Pelaton" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-32 w-72 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="/public/marqueelogos/DLG-client-Royere.svg" 
+                  src="/marqueelogos/DLG-client-Royere.svg" 
                   alt="Instagram" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="translate-y-2 h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="translate-y-2 h-32 w-64 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="/public/marqueelogos/DLG-client-MOONGOAT.png" 
+                  src="/marqueelogos/DLG-client-MOONGOAT.png" 
                   alt="Uber" 
                   loading="lazy"
                   width="160"
                   height="160"
                   decoding="async"
-                  className="h-28 w-28 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-44 w-44 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="/public/marqueelogos/DLG-client-DDE.svg" 
+                  src="/marqueelogos/DLG-client-DDE.svg" 
                   alt="Spotify" 
                   loading="lazy"
                   width="160"
                   height="160"
                   decoding="async"
-                  className="h-28 w-28 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-28 w-60 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="/public/marqueelogos/DLG-client-ASTR.svg" 
+                  src="/marqueelogos/DLG-client-Pelaton.svg" 
                   alt="Google" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="translate-x-2 h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-32 w-64 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="/public/marqueelogos/DLG-client-LUSH.svg" 
+                  src="/marqueelogos/DLG-client-LUSH.svg" 
                   alt="Microsoft" 
                   loading="lazy"
                   width="160"
@@ -118,33 +118,33 @@ const Index = () => {
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="https://cdn.magicui.design/companies/Amazon.svg" 
+                  src="/marqueelogos/DLG-client-Frostbites.webp" 
                   alt="Amazon" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-14 w-30 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="https://cdn.magicui.design/companies/Netflix.svg" 
+                  src="/marqueelogos/DLG-client-SureFire.png" 
                   alt="Netflix" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-28 w-64 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="https://cdn.magicui.design/companies/Instagram.svg" 
+                  src="/marqueelogos/DLG-client-BeautyCreations.png" 
                   alt="Instagram" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-20 w-60 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
