@@ -55,7 +55,7 @@ const Index = () => {
           <div className="relative overflow-hidden">
             <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-gray-200 to-transparent z-10"></div>
             <div className="absolute inset-y-0 right-0 w-48 bg-gradient-to-l from-gray-200 to-transparent z-10"></div>
-            <Marquee className="py-8" speed={0} pauseOnHover={true}>
+            <Marquee className="py-10" speed={75} pauseOnHover={true}>
               <div className="flex items-center gap-24 px-10">
                 <img 
                   src="/marqueelogos/DLG-client-TPLINK.png" 
@@ -64,17 +64,17 @@ const Index = () => {
                   width="160"
                   height="56"
                   decoding="async"
-                  className="h-32 w-72 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="h-32 w-72 dark:brightness-0 dark:invert grayscale opacity-40 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="/marqueelogos/DLG-client-Royere.svg" 
-                  alt="Instagram" 
+                  src="/marqueelogos/DLG-client-Pelaton.svg" 
+                  alt="Google" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="translate-y-2 h-32 w-64 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="translate-y-2 h-32 w-80 dark:brightness-0 dark:invert grayscale opacity-40 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
@@ -88,6 +88,16 @@ const Index = () => {
                   style={{ color: 'transparent' }}
                 />
                 <img 
+                  src="/marqueelogos/DLG-client-LUSH.svg" 
+                  alt="Instagram" 
+                  loading="lazy"
+                  width="160"
+                  height="56"
+                  decoding="async"
+                  className="translate-y-2 h-32 w-64 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  style={{ color: 'transparent' }}
+                />
+                <img 
                   src="/marqueelogos/DLG-client-DDE.svg" 
                   alt="Spotify" 
                   loading="lazy"
@@ -95,26 +105,6 @@ const Index = () => {
                   height="160"
                   decoding="async"
                   className="h-28 w-60 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
-                  style={{ color: 'transparent' }}
-                />
-                <img 
-                  src="/marqueelogos/DLG-client-Pelaton.svg" 
-                  alt="Google" 
-                  loading="lazy"
-                  width="160"
-                  height="56"
-                  decoding="async"
-                  className="h-32 w-64 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
-                  style={{ color: 'transparent' }}
-                />
-                <img 
-                  src="/marqueelogos/DLG-client-LUSH.svg" 
-                  alt="Microsoft" 
-                  loading="lazy"
-                  width="160"
-                  height="56"
-                  decoding="async"
-                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
@@ -148,13 +138,13 @@ const Index = () => {
                   style={{ color: 'transparent' }}
                 />
                 <img 
-                  src="https://cdn.magicui.design/companies/Uber.svg" 
-                  alt="Uber" 
+                  src="/marqueelogos/DLG-client-Royere.svg" 
+                  alt="Jean Royere" 
                   loading="lazy"
                   width="160"
                   height="56"
                   decoding="async"
-                  className="h-14 w-36 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
+                  className="translate-y-2 h-32 w-64 dark:brightness-0 dark:invert grayscale opacity-50 transition-opacity duration-300"
                   style={{ color: 'transparent' }}
                 />
                 <img 
